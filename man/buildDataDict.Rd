@@ -4,10 +4,12 @@
 \alias{buildDataDict}
 \title{A function to build simple data dictionaries from a dataframe.}
 \usage{
-buildDataDict(df, IDcols = NULL)
+buildDataDict(dat, IDcols = NULL, outdir = NULL)
 }
 \arguments{
 \item{IDcols}{Are columns in this dataframe used for identification? Defaults to NULL.}
+
+\item{outdir}{Directory to output a csv of the data dictionary to. If left NULL nothing will save out}
 }
 \description{
 This function allows you to input a dataframe and outputs
